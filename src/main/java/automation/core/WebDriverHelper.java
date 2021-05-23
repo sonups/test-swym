@@ -69,4 +69,19 @@ public class WebDriverHelper {
         return site;
 
     }
+
+    public static boolean clickElementHavingText(List<WebElement> elements, String text){
+        boolean found = false;
+        for(WebElement element:elements){
+            if(element.getText().contains(text)){
+                found = true;
+                element.click();
+                break;
+            }
+        }
+        waitForPageLoad();
+        return found;
+    }
+
+
 }

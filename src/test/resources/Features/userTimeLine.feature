@@ -37,11 +37,4 @@ Feature: Twitter to test twitter user timeline
       | account-name | account-id | tweet-text |
       | Test Sonu    | @test_sonu | asdasd     |
 
-  @all @user-timeline
-  Scenario: Verify the values in few fields in Profile Page is as expected
-    Given I login to twitter
-      | username  | password   |
-      | test_sonu | Twitter@89 |
-    And I navigate to the uri /test_sonu in the current site
-
 

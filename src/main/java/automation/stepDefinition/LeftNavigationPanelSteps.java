@@ -1,7 +1,7 @@
 package automation.stepDefinition;
 
+import automation.core.DriverFactory;
 import automation.core.WebDriverHelper;
-import automation.core.html.DriverFactory;
 import automation.pages.twitter.LeftNavigationPanel;
 import io.cucumber.java.en.Given;
 

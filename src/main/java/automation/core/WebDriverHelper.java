@@ -1,6 +1,5 @@
 package automation.core;
 
-import automation.core.html.DriverFactory;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,7 +27,7 @@ public class WebDriverHelper {
     }
 
     public static void waitForPageLoad() {
-        RemoteWebDriver driver = DriverFactory.getDriver();
+        RemoteWebDriver driver = (RemoteWebDriver) DriverFactory.getDriver();
         int max_tries = 3;
         for(int i =1; i <= max_tries; i++) {
 

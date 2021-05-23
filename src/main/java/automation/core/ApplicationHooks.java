@@ -1,6 +1,6 @@
 package automation.core;
 
-import automation.core.html.DriverFactory;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -12,7 +12,7 @@ import java.util.Properties;
 
 public class ApplicationHooks {
 
-	private automation.core.html.DriverFactory driverFactory;
+	private DriverFactory driverFactory;
 	private WebDriver driver;
 	private ConfigReader configReader;
 	Properties prop;

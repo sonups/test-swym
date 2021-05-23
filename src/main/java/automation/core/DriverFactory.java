@@ -4,13 +4,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverFactory {
 
     public WebDriver driver;
 
-    public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
+    public static ThreadLocal<RemoteWebDriver> tlDriver = new ThreadLocal<>();
 
     /**
      * This method is used to initialize the thradlocal driver on the basis of given
@@ -19,7 +20,7 @@ public class DriverFactory {
      * @param browser
      * @return this will return tldriver.
      */
-    public WebDriver init_driver(String browser) {
+    public RemoteWebDriver init_driver(String browser) {
 
         System.out.println("browser value is: " + browser);
 
@@ -46,7 +47,7 @@ public class DriverFactory {
      *
      * @return
      */
-    public static synchronized WebDriver getDriver() {
+    public static synchronized RemoteWebDriver getDriver() {
         return tlDriver.get();
     }
 }

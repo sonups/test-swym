@@ -1,6 +1,6 @@
 Feature: Feature to test twitter login
 
-  @dev @login
+  @all @login
   Scenario: Verify user is able to Login to twitter successfully
     Given I login to twitter
       | username  | password   |

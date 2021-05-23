@@ -1,4 +1,4 @@
-package automation.stepDefinition;
+package automation.steps;
 
 import automation.core.DriverFactory;
 import automation.core.WebDriverHelper;

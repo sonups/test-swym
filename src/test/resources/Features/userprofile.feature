@@ -5,14 +5,17 @@ Feature: Twitter to test twitter profile page
       | username  | password   |
       | test_sonu | Twitter@89 |
 
+  @dev
   Scenario: Verify the user description field in profile page of the user test_sonu
     When I click on profile button in left navigation panel
     Then Verify the Biography field in profile contains text automatically updated biography - time stamp
 
+  @dev
   Scenario: Verify the tweet count text in profile page of the user test_sonu
     When I click on profile button in left navigation panel
     Then Verify the tweet count in profile is 7 Tweets
 
+  @dev
   Scenario: As a user I edit the user description and I verify it is updated successfully
     When I click on profile button in left navigation panel
     And I click edit profile button

@@ -1,7 +1,7 @@
 Feature: Twitter to test twitter user timeline
 
-
-    Scenario: Verify the user timeline of the user test_sonu
+  @dev
+  Scenario: Verify the user timeline of the user test_sonu
     Given I login to twitter
       | username  | password   |
       | test_sonu | Twitter@89 |
@@ -37,6 +37,7 @@ Feature: Twitter to test twitter user timeline
       | account-name | account-id | tweet-text |
       | Test Sonu    | @test_sonu | asdasd     |
 
+  @dev
   Scenario: Verify the values in few fields in Profile Page is as expected
     Given I login to twitter
       | username  | password   |

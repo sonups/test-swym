@@ -1,4 +1,4 @@
-package automation.stepDefinition;
+package automation.steps;
 
 import automation.core.DriverFactory;
 import automation.core.WebDriverHelper;
@@ -7,6 +7,7 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+
 
 import java.util.List;
 import java.util.Map;

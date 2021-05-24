@@ -83,7 +83,33 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
 
  ### 4. Structure of Files 
  
- 
+ markdown/
+┣ src/
+┃ ┣ main/
+┃ ┃ ┣ java/
+┃ ┃ ┃ ┗ automation/
+┃ ┃ ┃   ┣ core/
+┃ ┃ ┃   ┣ pages/
+┃ ┃ ┃   ┣ runner/
+┃ ┃ ┃   ┗ steps/
+┃ ┃ ┗ resources/
+┃ ┗ test/
+┃   ┣ java/
+┃ ┃ ┃ ┗ runner/
+┃ ┃ ┃   ┗ CucumberRunnerTest.java
+┃   ┗ resources/
+┃ ┃   ┣ config/
+┃ ┃ ┃ ┃ ┗ config.properties
+┃ ┃   ┗ Features/
+┃ ┃ ┃   ┣ searchTwitter.feature
+┃ ┃ ┃   ┣ sendTweet.feature
+┃ ┃ ┃   ┣ twitterLogin.feature
+┃ ┃ ┃   ┣ userprofile.feature
+┃ ┃ ┃   ┗ userTimeLine.feature
+┣ .gitignore
+┗ pom.xml
+
+
  
 ┣---- src/
 ┃----┣---- main/

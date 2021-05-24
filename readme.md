@@ -17,25 +17,11 @@ Table of contents
 <!--ts-->
 
   * [Built With](#built-with)
-  * [Clone the repo](#1-clone-the-repo-and-install-npm-dependencies)
-  * [Different ways of Building And Executing project](#different-ways-of-building--executing-project)
-  	* [1. Running tests in local](#1-running-tests-in-local)
-  	 	* [1. Clone the repo and Install npm dependencies](#1-clone-the-repo-and-install-npm-dependencies)
-         * [2. Verify Lint](#2-verify-lint)
-         * [3. Various Test configurations](#3-various-test-configurations)
-         * [4. Structure of BDD feature files](#4-structure-of-bdd-feature-files)
-         * [5. Report Generation](#5-report-generation)
-  	* [2. Running tests in docker](#2-running-tests-from-docker)
-  		* [1. Run docker build](#1-run-docker-build)
-         * [2. (Optional) Remove existing running containers](2-optional-remove-existing-running-containers-required-when-there-is-already-a-container-running-with-same-name)
-         * [3. Execute tests by passing specific tags](#3-execute-tests-by-passing-specific-tags)
-  	* [3. Running tests in Jenkins hosted from docker](#3-running-tests-in-jenkins-hosted-from-docker)
-  		* [3.1 Setting up jenkins](#31-setting-up-jenkins)
-  	  		* [OPTION A - Running shell script jenkins-run.sh (In linux)](#------option-a----running-shell-script-jenkins-runsh-in-linux)
-  	  	 	* [OPTION B - Executing each commands in shell(Windows or Mac)](#------option-b----executing-each-commands-in-shellwindows-or-mac)
-         * [3.2 Executing tests in jenkins](#32-executing-tests-in-jenkins)
-  	* [4. Running tests in Jenkins hosted in Azure cloud vm](#4-running-tests-in-jenkins-hosted-in-azure-cloud-vm)
-- [Contact](#contact)
+  * [1. To run all cases use tag - @all (tested in windows 10 & ubuntu)](#1-to-run-all-cases-use-tag---all-tested-in-windows-10--ubuntu)
+  * [2. Tags](#2-tags)
+  * [3. Browser configuration](#3-browser-configuration)
+  * [4. Structure of Files](#4-structure-of-files)
+  * [Contact](#contact)
 
 
 ### Built With

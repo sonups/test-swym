@@ -36,8 +36,8 @@ Selenium, Cucumber, mvn , Java8
 
 ### 1. To run all cases use tag - @all (tested in windows 10 & ubuntu)
    ```sh
-   git clone https://github.com/sonups/cypress-todos-automated-test
-   cd cypress-todos-automated-test
+   git clone https://github.com/sonups/bdd-selenium-java
+   cd bdd-selenium-java
    mvn compile test -Dcucumber.filter.tags="@all"
    ```
 ### 2. Tags

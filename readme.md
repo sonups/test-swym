@@ -56,7 +56,6 @@ Selenium, Cucumber, mvn , Java8
    ```
 ### 2. Tags
 
-
 | Specifc Tag    | Description                    | Full command                                             |
 |----------------|--------------------------------|----------------------------------------------------------|
 | @all           | Executes all scenarios         | mvn compile test -Dcucumber.filter.tags="@all"           |
@@ -82,35 +81,7 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
    ```
 
  ### 4. Structure of Files 
- 
-
-┣ src/
-┃ ┣ main/
-┃ ┃ ┣ java/
-┃ ┃ ┃ ┗ automation/
-┃ ┃ ┃   ┣ core/
-┃ ┃ ┃   ┣ pages/
-┃ ┃ ┃   ┣ runner/
-┃ ┃ ┃   ┗ steps/
-┃ ┃ ┗ resources/
-┃ ┗ test/
-┃   ┣ java/
-┃ ┃ ┃ ┗ runner/
-┃ ┃ ┃   ┗ CucumberRunnerTest.java
-┃   ┗ resources/
-┃ ┃   ┣ config/
-┃ ┃ ┃ ┃ ┗ config.properties
-┃ ┃   ┗ Features/
-┃ ┃ ┃   ┣ searchTwitter.feature
-┃ ┃ ┃   ┣ sendTweet.feature
-┃ ┃ ┃   ┣ twitterLogin.feature
-┃ ┃ ┃   ┣ userprofile.feature
-┃ ┃ ┃   ┗ userTimeLine.feature
-┣ .gitignore
-┗ pom.xml
-
-
- 
+   ```sh
 ┣---- src/
 ┃----┣---- main/
 ┃----┃----┣---- java/
@@ -136,8 +107,8 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
 ┣---- .gitignore
 ┗ pom.xml
 
-
-
+   ```
+   
 <!-- CONTACT -->
 # Contact
 

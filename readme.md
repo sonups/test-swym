@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <a href="https://github.com/sonups/cypress-todos-automated-test">
+   <a href="https://github.com/sonups/bdd-selenium-java">
    <img src="https://media-exp1.licdn.com/dms/image/C5112AQHJpZqS4Bxncw/article-cover_image-shrink_423_752/0/1520185868869?e=1627516800&v=beta&t=daIxyIOsFQ8wt43fNjBT6FSnbxOC1az55hC10ae8HLw" alt="Logo" width="300" height="150">
       <img src="https://miro.medium.com/max/8642/1*iIXOmGDzrtTJmdwbn7cGMw.png" alt="Logo" width="250" height="150">
    </a>
@@ -47,17 +47,14 @@ Selenium, Cucumber, mvn , Java8
 * [Cucumber](https://cucumber.io/)
 * [Java](https://www.java.com/en/)
 
-### Project compilation and execution
 
-<!-- SETTING PROJECT LOCALLY -->
-
-##### 1. To run all cases use tag - @all (tested in windows 10 & ubuntu)
+### 1. To run all cases use tag - @all (tested in windows 10 & ubuntu)
    ```sh
    git clone https://github.com/sonups/cypress-todos-automated-test
    cd cypress-todos-automated-test
    mvn compile test -Dcucumber.filter.tags="@all"
    ```
-##### 3. Tags
+### 2. Tags
 
 | Specifc Tag                            | Description                  | Full command                  |
 | ------------- |:-------------:| 
@@ -70,7 +67,7 @@ Selenium, Cucumber, mvn , Java8
 
 
 
- ##### 2. Browser configuration
+ ### 3. Browser configuration
  
 Specifcy the browser in config.properties file ( Ensure the browser is installed and available in OS)
 
@@ -82,7 +79,7 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
     browser = chrome
    ```
 
- ##### 4. Structure of Files 
+ ### 4. Structure of Files 
 ┣---- src/
 ┃----┣---- main/
 ┃----┃----┣---- java/
@@ -114,6 +111,6 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
 Sonu Sadasivan - sonu.sadasivan@gmail.com
 LinkedIn - https://www.linkedin.com/in/sonups/
 
-Project Link: [https://github.com/sonups/cypress-todos-automated-test](https://github.com/sonups/cypress-test-docker)
+Project Link: [https://github.com/sonups/bdd-selenium-java](https://github.com/sonups/bdd-selenium-java)
 
 

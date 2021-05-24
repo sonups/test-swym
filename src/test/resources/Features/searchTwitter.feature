@@ -1,6 +1,6 @@
 Feature: To test search functionality in twitter
 
-  @all @send-tweet
+  @all @search-page
   Scenario: As a user I should be able to search user pages by a keyword and select specifc
     Given I login to twitter
       | username  | password   |

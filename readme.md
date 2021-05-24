@@ -83,7 +83,7 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
 
  ### 4. Structure of Files 
  
- markdown/
+
 ┣ src/
 ┃ ┣ main/
 ┃ ┃ ┣ java/

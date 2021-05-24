@@ -56,14 +56,15 @@ Selenium, Cucumber, mvn , Java8
    ```
 ### 2. Tags
 
-| Specifc Tag                            | Description                  | Full command                  |
-| ------------- |:-------------:| 
-| @all | Executes all scenarios | mvn compile test -Dcucumber.filter.tags="@all" |
-| @login | Execute login scenario | mvn compile test -Dcucumber.filter.tags="@login" |
-| @user-timeline | Execute user timeline scenario |  mvn compile test -Dcucumber.filter.tags="@user-timeline" |
-| @user-profile | Execute user profile scenario |  mvn compile test -Dcucumber.filter.tags="@user-profile" |
-| @send-tweet | Executes all scenarios | mvn compile test -Dcucumber.filter.tags="@send-tweet" |
-| @search-page | Executes all scenarios | mvn compile test -Dcucumber.filter.tags="@search-page" |
+| Specifc Tag    | Description                    | Full command                                             |
+|----------------|--------------------------------|----------------------------------------------------------|
+| @all           | Executes all scenarios         | mvn compile test -Dcucumber.filter.tags="@all"           |
+| @login         | Execute login scenario         | mvn compile test -Dcucumber.filter.tags="@login"         |
+| @user-timeline | Execute user timeline scenario | mvn compile test -Dcucumber.filter.tags="@user-timeline" |
+| @user-profile  | Execute user profile scenario  | mvn compile test -Dcucumber.filter.tags="@user-profile"  |
+| @send-tweet    | Executes all scenarios         | mvn compile test -Dcucumber.filter.tags="@send-tweet"    |
+| @search-page   | Executes all scenarios         | mvn compile test -Dcucumber.filter.tags="@search-page"   |
+
 
 
 

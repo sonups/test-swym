@@ -82,6 +82,8 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
    ```
 
  ### 4. Structure of Files 
+ 
+ 
 ┣---- src/
 ┃----┣---- main/
 ┃----┃----┣---- java/
@@ -106,6 +108,8 @@ Specifcy the browser in config.properties file ( Ensure the browser is installed
 ┃----┃----┃----┗ userTimeLine.feature
 ┣---- .gitignore
 ┗ pom.xml
+
+
 
 <!-- CONTACT -->
 # Contact

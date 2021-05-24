@@ -56,6 +56,7 @@ Selenium, Cucumber, mvn , Java8
    ```
 ### 2. Tags
 
+
 | Specifc Tag    | Description                    | Full command                                             |
 |----------------|--------------------------------|----------------------------------------------------------|
 | @all           | Executes all scenarios         | mvn compile test -Dcucumber.filter.tags="@all"           |

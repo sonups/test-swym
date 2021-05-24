@@ -11,6 +11,7 @@ public class LeftNavigationPanelSteps {
 
     @Given("^I click on (.*?) button in left navigation panel$")
     public void loginToTwitter(String button) {
+        WebDriverHelper.waitForPageLoad();
         switch (button) {
             case "profile":
                 leftNavigationPanel.clickProfileButton();

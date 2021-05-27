@@ -17,12 +17,12 @@ Table of contents
 <!--ts-->
 
   * [Built With](#built-with)
-  * [1. Browser configuration](#3-browser-configuration)
-  * [2. To run all cases use tag - @all (tested in windows 10 & ubuntu)](#1-to-run-all-cases-use-tag---all-tested-in-windows-10--ubuntu)
-  * [3. Run dockerized tests in Windows using powershell](#2-run-dockerized-tests-in-windows-using-powershell)
-  * [4. Run dockerized tests in Windows using powershell](#2-run-dockerized-tests-in-windows-using-powershell)
-  * [5. Tags](#2-tags)
-  * [6. Structure of Files](#4-structure-of-files)
+  * [1. Browser configuration](#1-browser-configuration)
+  * [2. To run all cases use tag - @all (tested in windows 10 & ubuntu)](#2-to-run-all-cases-use-tag---all-tested-in-windows-10--ubuntu)
+  * [3. Run dockerized tests in Windows using powershell](#3-run-dockerized-tests-in-windows-using-powershell)
+  * [4. Run dockerized tests in Linux](#4-run-dockerized-tests-in-linux)
+  * [5. Tags](#5-tags)
+  * [6. Structure of Files](#6-structure-of-files)
   * [Contact](#contact)
 
 

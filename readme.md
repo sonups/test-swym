@@ -34,11 +34,34 @@ Selenium, Cucumber, mvn , Java8
 * [Java](https://www.java.com/en/)
 
 
-### 1. To run all cases use tag - @all (tested in windows 10 & ubuntu)
+### 1. To run all cases use tag - @all (tested in windows 10 & ubuntu) (require java JDK/JRE version 8)
    ```sh
    git clone https://github.com/sonups/bdd-selenium-java
    cd bdd-selenium-java
    mvn compile test -Dcucumber.filter.tags="@all"
+   ```
+### 2. Run dockerized tests in Windows using powershell
+   Open a powershell console. Issue the below commands sequentially
+   ```sh
+   git clone https://github.com/sonups/bdd-selenium-java
+   cd bdd-selenium-java
+   docker build -t sps89/bdd-selenium-java .
+   docker network create myNetwork
+   docker-compose up -d
+   $cmdOutput = docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' hub
+   docker run --rm -i --name bdd-selenium-java -e SELENIUM_HUB_ADDRESS="$cmdOutput" --network="myNetwork" sps89/bdd-selenium-java
+   ```
+   
+### 2. Run dockerized tests in Linux 
+   Open a linux terminal. Issue the below commands sequentially
+   ```sh
+   git clone https://github.com/sonups/bdd-selenium-java
+   cd bdd-selenium-java
+   docker build -t sps89/bdd-selenium-java .
+   docker network create myNetwork
+   docker-compose up -d
+   cmdOutput=$(docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' hub)
+   docker run --rm -i --name bdd-selenium-java -e SELENIUM_HUB_ADDRESS="$cmdOutput" --network="myNetwork" sps89/bdd-selenium-java
    ```
 ### 2. Tags
 

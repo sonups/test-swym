@@ -18,7 +18,7 @@ Table of contents
 
   * [Built With](#built-with)
   * [1. Browser configuration](#1-browser-configuration)
-  * [2. To run all cases use tag - @all (tested in windows 10 & ubuntu)](#2-to-run-all-cases-use-tag---all-tested-in-windows-10--ubuntu)
+  * [2. To run all cases use tag - @all (tested in windows 10 & ubuntu)](#2-to-run-all-cases-use-tag---all-tested-in-windows-10--ubuntu-require-java-jdkjre-version-8)
   * [3. Run dockerized tests in Windows using powershell](#3-run-dockerized-tests-in-windows-using-powershell)
   * [4. Run dockerized tests in Linux](#4-run-dockerized-tests-in-linux)
   * [5. Tags](#5-tags)
